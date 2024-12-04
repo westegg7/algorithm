@@ -1,0 +1,14 @@
+# ignore all
+*
+
+# Unignore all with extension
+!*.*
+
+# Unignore all dirs
+!*/
+
+# vscode
+.vscode/
+
+# macOS
+.DS_Store
