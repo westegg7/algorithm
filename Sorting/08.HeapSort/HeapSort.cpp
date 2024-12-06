@@ -71,7 +71,7 @@ public:
     }
 
     void Print()
-	{
+    {
 		cout << "Index: ";
 		for (int i = 1; i <= heap_.size() - 1; i++)
 			cout << setw(3) << i;
@@ -81,7 +81,7 @@ public:
 		for (int i = 1; i <= heap_.size() - 1; i++)
 			cout << setw(3) << heap_[i];
 		cout << endl << endl;
-	}
+    }
 };
 
 
@@ -114,7 +114,7 @@ int main()
 
     cout << "Pop " << max_heap.Pop() << endl;
     max_heap.Print();
-    
+
     cout << "Pop " << max_heap.Pop() << endl;
     max_heap.Print();
 }
