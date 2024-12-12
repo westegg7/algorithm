@@ -115,6 +115,5 @@ int main()
     cout << "Pop " << max_heap.Pop() << endl;
     max_heap.Print();
 
-    cout << "Pop " << max_heap.Pop() << endl;
-    max_heap.Print();
+    return 0;
 }
